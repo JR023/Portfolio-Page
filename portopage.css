@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    display:flex;
+    background-color:rgb(52, 54, 54);
+    justify-content: flex-start;
+    height: 100px;
+    align-items: center;
+    padding-left: 400px;
+}
+.nav-title{
+    color: whitesmoke;
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+ul.nav-links{
+    list-style-type: none;
+}
+.nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+}
+li{
+    padding-left: 40px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    margin-left: 500px;
+    box-shadow: 2px 2px 3px 1px rgb(5, 1, 1);
+    background-color: rgba(0, 255, 255, 0.425);
+    border-color: black;
+    color: whitesmoke;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+.usercard{
+    height: 320px;
+    width: 700px;
+    border-style: solid;
+    border-color: gray;
+}
+.banner{
+    background-color: rgba(27, 124, 124, 0.274);
+    height: 100px;
+    width: auto;
+}
+#user{
+    height: 100px;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: azure;
+    box-shadow: 2px 2px 2px;
+}
+#map{
+    height: 20px;
+    width: auto;
+    padding-right: 10px;
+}
+.usercard h1{
+    margin-top: 10px;
+    font-size: xx-large;
+}
+.usercard2{
+    height: 200px;
+    width: 350px;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.usercard2 h2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.gear{
+    position: relative;
+    top: 4px;
+    height: 15px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.row{
+    margin-top: 50px;
+    display: flex;
+}
+.left{
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+
+.education{
+    margin-top: 40px;
+    border-style: solid;
+    border-color: gray;
+}
+.banner2{
+    background-color:rgb(52, 54, 54);
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    height: 50px;
+}
+.education2{
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#date{
+    margin-top: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.right{
+    margin-left: 30px;
+    flex-direction: column;
+}
+.connections{
+    border-style: solid;
+    border-color: gray;
+    width: 420px;
+}
+.banner3{
+    background-color:rgb(52, 54, 54);
+    color: white;
+    text-align: left;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#two{
+    background-color: grey;
+    color: black;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.requests img{
+    border-radius:50%;
+    height: 50px;
+    width: auto;
+}
+.requests{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.requests1{
+    margin-top: 10px;
+}
+#todd{
+    margin-right: 20px;
+}
+#circle1{
+    margin-left: 80px;
+    margin-right: 20px;
+}
+.requests3{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.requests3 img{
+    border-radius:50%;
+    height: 50px;
+    width: auto;
+}
+#phil{
+    margin-right: 20px;
+}
+#circle2{
+    margin-left: 90px;
+    margin-right: 20px;
+}
+.yconnections{
+    margin-top: 30px;
+    border-style: solid;
+    border-color: gray;
+    width: 420px;
+}
+.banner4{
+    background-color: rgb(52, 54, 54);
+    color: white;
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#fivehunna{
+    margin-left: 40px;
+    background-color: grey;
+    color: black;
+    border-radius: 50%;
+    font-size:20px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#yconnection1{
+    margin-left: 10px;
+    margin-top: 5px;
+    color:white;
+}
+.profile img{
+    height: 50px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    margin-top: 10px;
+}
+.profile h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.profiles{
+    flex-direction: column;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.viewmore{
+    border-style: solid;
+    border-color: gray;
+    width:auto;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
